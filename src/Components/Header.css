@@ -1,0 +1,89 @@
+.navbar{
+    height: 5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    background: linear-gradient(to right, #007bff, #0056b3);
+    border-bottom: 2px solid #f5f5f5;
+    font-size: 1.7vw !important;
+    color: #fff;
+}
+
+.logo img{
+    height: 5vw;
+}
+
+.components{
+    display: flex;
+    gap: 3rem;
+}
+
+.components Link {
+    font-size: 5vw;
+    display: flex;
+    align-items: center;
+}
+
+.one{
+    background-color: #f5f5f5;
+    border: none;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 0.5em;
+    transition: background-color 300ms;
+}
+
+.menu-icon {
+    font-size: 1.5em;
+    cursor: pointer;
+    display: none;
+}
+
+.btns{
+    display: flex;
+    gap: 1rem;
+}
+
+@media (max-width: 768px){
+    #sign{
+        display: none;
+    }
+    
+    #start{
+        border: 2px solid black;
+    }
+}
+
+@media (max-width: 678px) {
+    #start{
+        display: none;
+    }
+}
+
+@media (max-width: 567px){
+    .components{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+    }
+}
+
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#submit{    
+    background-color: #f5f5f5;
+    border: none;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 0.5em;
+    transition: background-color 300ms;
+    margin-top: 3vh;
+}
